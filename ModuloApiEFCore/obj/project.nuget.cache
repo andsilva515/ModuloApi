@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BO29veOi8f4EIO583yjM9aI3/FXXIujzZI3rgtmOHPEGC974Yx1OmtAVBhJR39NZoaDofUjHWGMF/QSpbjjJdw==",
+  "dgSpecHash": "7umppr/IRyfgyBYzHW419DMrG6uZ7Z9k/LhjT1f21C/tIdb0k5RZPfyZAWw/HSoCxehyrFCGp58GmSzgjw+Unw==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\DotNet-Projects\\CursoDotnet\\Módulos\\Modulo-APIeEntityFrameworkCore\\ModuloAPI\\ModuloAPI.csproj",
+  "projectFilePath": "C:\\Projetos\\DotNet-Projects\\CursoDotnet\\Módulos\\Modulo-APIeEntityFrameworkCore\\ModuloApiEFCore\\ModuloApiEFCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ander\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\ander\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
