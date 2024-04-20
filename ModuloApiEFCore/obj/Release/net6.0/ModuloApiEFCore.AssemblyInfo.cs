@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ModuloApiEFCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2fb404a7fa6fa0a35796c349974179b9abaf346")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+414565cfaf6e6c254e43d007b0b638a31603ca52")]
 [assembly: System.Reflection.AssemblyProductAttribute("ModuloApiEFCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ModuloApiEFCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
