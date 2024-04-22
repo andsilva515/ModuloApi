@@ -1,2 +1,2 @@
 # ModuloApi
-Laboratório curso API e Entity Framework Core
+Laboratório API e Entity Framework Core
