@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IntegraBrasilApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c37cf0bc61853017266e800d57f531dd92893508")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba9c688993b5e2b36b0b9943219faef4c1ddb7cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("IntegraBrasilApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IntegraBrasilApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
