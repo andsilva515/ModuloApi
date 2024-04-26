@@ -1,0 +1,17 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using IntegraBrasilApi.Dtos;
+using IntegraBrasilApi.Models;
+
+namespace IntegraBrasilApi.Interfaces
+{
+    public interface IBrasilApi
+    {
+        Task<ResponseGenerico<EnderecoModel>> BuscarEnderoPorCEP(string cep);
+        Task<ResponseGenerico<EnderecoModel>> BuscarTodosBancos();
+
+        Task<ResponseGenerico<BancoModel>> BuscarBanco(string codigoBanco);
+    }
+}
