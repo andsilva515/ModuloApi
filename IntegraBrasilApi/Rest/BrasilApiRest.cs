@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Dynamic;
 using System.Linq;
 using System.Net.Http;
@@ -10,7 +11,7 @@ using IntegraBrasilApi.Interfaces;
 using IntegraBrasilApi.Models;
 
 namespace IntegraBrasilApi.Rest
-{
+{ 
     public class BrasilApiRest : IBrasilApi
     {        
         public async Task<ResponseGenerico<EnderecoModel>> BuscarEnderoPorCEP(string cep)
@@ -18,8 +19,7 @@ namespace IntegraBrasilApi.Rest
             var request = new HttpRequestMessage(HttpMethod.Get, $"https://brasilapi.com.br/api/cep/v1/{cep}");
 
             var response = new ResponseGenerico<EnderecoModel>();
-            using (var client = new HttpClient()) {
-                
+            using (var client = new HttpClient()) {                
                 var responseBrasilApi = await client.SendAsync(request);
                 var contentResp = await responseBrasilApi.Content.ReadAsStringAsync();
                 var objResponse = JsonSerializer.Deserialize<EnderecoModel>(contentResp);
@@ -87,9 +87,6 @@ namespace IntegraBrasilApi.Rest
             return response;
         }
 
-        Task<ResponseGenerico<EnderecoModel>> IBrasilApi.BuscarTodosBancos()
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }

@@ -12,7 +12,6 @@ namespace IntegraBrasilApi.Services
     {
         private readonly IMapper _mapper;
         private readonly IBrasilApi _brasilApi;
-
         public EnderecoService(IMapper mapper, IBrasilApi brasilApi)
         {
             _mapper = mapper;
