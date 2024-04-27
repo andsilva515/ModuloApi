@@ -20,7 +20,7 @@ namespace IntegraBrasilApi.Controllers
             _bancoService = bancoService;
         }
 
-        [HttpGet("busca/{todos}")]
+        [HttpGet("busca/todos")]
         [ProducesResponseType(StatusCodes.Status200OK)]   
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
@@ -43,7 +43,7 @@ namespace IntegraBrasilApi.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> Buscar([RegularExpression("^[0-9]*$")]string codigoBanco)
+        public async Task<IActionResult> Buscar([RegularExpression("^[0-9]*$")] string codigoBanco)
         {
             var response = await _bancoService.BuscarBanco(codigoBanco);
 

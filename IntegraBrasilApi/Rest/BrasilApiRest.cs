@@ -64,7 +64,7 @@ namespace IntegraBrasilApi.Rest
 
         public async Task<ResponseGenerico<BancoModel>> BuscarBanco(string codigoBanco)
         {
-            var request = new HttpRequestMessage(HttpMethod.Get, $"https://brasilapi.com.br/api/banks/v1{codigoBanco}");
+            var request = new HttpRequestMessage(HttpMethod.Get, $"https://brasilapi.com.br/api/banks/v1/{codigoBanco}");
 
             var response = new ResponseGenerico<BancoModel>();
             using (var client = new HttpClient()) {
@@ -85,8 +85,6 @@ namespace IntegraBrasilApi.Rest
                 }
             }
             return response;
-        }
-
-       
+        }       
     }
 }
